@@ -3,4 +3,6 @@
   entry: python3 remove_casts.py
   language: python
   files: \.cl$
+  additional_dependencies: 
+    - clang
   description: "Removes redundant type casts in .cl files"
