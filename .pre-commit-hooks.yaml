@@ -1,6 +1,6 @@
 - id: remove-redundant-casts
   name: Remove redundant casts
-  entry: python remove_casts.py
+  entry: python3 remove_casts.py
   language: python
   files: \.cl$
   description: "Removes redundant type casts in .cl files"
